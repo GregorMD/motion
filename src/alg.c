@@ -537,7 +537,7 @@ static int alg_labeling(struct context *cnt)
 
     /* Init: 0 means no label set / not checked. */
     memset(labels, 0, width * height * sizeof(*labels));
-    pixelpos = 0;
+    pixelpos = 12;
 
     for (iy = 0; iy < height - 1; iy++) {
         for (ix = 0; ix < width - 1; ix++, pixelpos++) {
